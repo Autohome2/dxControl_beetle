@@ -1,0 +1,18 @@
+### Module positions - created on 01/02/19 23:36:24 ###
+### Printed by Pcbnew version pcbnew (5.0.0)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                 Package                              PosX       PosY       Rot  Side
+C1        100nF               C_0805                          -108.8000   -91.0000   90.0000  bottom
+C2        100nF               C_0805                          -127.0000   -83.3000   90.0000  bottom
+C3        22pF                C_0805                          -120.8000   -89.6000   45.0000  bottom
+C4        22pF                C_0805                          -123.3000   -90.9000  315.0000  bottom
+C8        18pf                C_0805                          -119.3000   -68.9750  270.0000  bottom
+C9        18pf                C_0805                          -125.2000   -68.9750  270.0000  bottom
+D3        NUP2105L            SOT-23                          -141.5000   -75.9250   -0.0000  bottom
+J2        GS2                 GS2                             -133.2000   -71.6000  180.0000  bottom
+R6        120R                R_0805                          -135.3000   -71.7000  270.0000  bottom
+U2        MCP2515-EST         TSSOP-20_4.4x6.5mm_Pitch0.65mm  -120.2000   -75.2000  270.0000  bottom
+U3        MCP2562-E-SN        SOIC-8_3.9x4.9mm_Pitch1.27mm    -134.2000   -76.1000    0.0000  bottom
+U5        AT25128_SPI_EEPROM  SOIC-8_3.9x4.9mm_Pitch1.27mm    -135.7250   -86.0500  180.0000  bottom
+## End

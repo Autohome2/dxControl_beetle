@@ -1,0 +1,233 @@
+EESchema Schematic File Version 4
+LIBS:beetle-cache
+EELAYER 26 0
+EELAYER END
+$Descr User 16884 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	9800 2100 9600 2100
+Wire Wire Line
+	9500 2100 9500 2200
+Text GLabel 9600 2025 0    39   BiDi ~ 0
+GND
+Wire Wire Line
+	10400 1900 10575 1900
+Wire Wire Line
+	10700 1900 11100 1900
+Connection ~ 10700 1900
+Text GLabel 10575 1800 0    39   BiDi ~ 0
+3.3V
+Wire Wire Line
+	9100 1900 8800 1900
+Connection ~ 9100 1900
+Text GLabel 8800 1900 0    70   BiDi ~ 0
+VIN
+Text GLabel 6225 1775 2    70   BiDi ~ 0
+VIN
+$Comp
+L Tau-037-eagle-import:A3L-LOC-MOD #U$?
+U 1 0 649D799B
+P 1000 7100
+AR Path="/649D799B" Ref="#U$?"  Part="1" 
+AR Path="/5C1195BD/649D799B" Ref="#U$2"  Part="1" 
+F 0 "#U$2" H 1000 7100 50  0001 C CNN
+F 1 "A3L-LOC-MOD" H 1000 7100 50  0001 C CNN
+F 2 "" H 1000 7100 50  0001 C CNN
+F 3 "" H 1000 7100 50  0001 C CNN
+	1    1000 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tau-037-eagle-import:CAP0402 C?
+U 1 0 9153FA9E
+P 9100 2100
+AR Path="/9153FA9E" Ref="C?"  Part="1" 
+AR Path="/5C1195BD/9153FA9E" Ref="C6"  Part="1" 
+F 0 "C6" H 9160 2215 59  0000 L BNN
+F 1 "1uF" H 9160 2015 59  0000 L BNN
+F 2 "Capacitors_SMD:C_0805" H 9100 2100 50  0001 C CNN
+F 3 "" H 9100 2100 50  0001 C CNN
+	1    9100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tau-037-eagle-import:CAP0402 C?
+U 1 0 0A51D459
+P 10700 2100
+AR Path="/0A51D459" Ref="C?"  Part="1" 
+AR Path="/5C1195BD/0A51D459" Ref="C7"  Part="1" 
+F 0 "C7" H 10760 2215 59  0000 L BNN
+F 1 "1uF" H 10760 2015 59  0000 L BNN
+F 2 "Capacitors_SMD:C_0805" H 10700 2100 50  0001 C CNN
+F 3 "" H 10700 2100 50  0001 C CNN
+	1    10700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tau-037-eagle-import:GND #GND?
+U 1 0 5B6A58CA
+P 10700 2300
+AR Path="/5B6A58CA" Ref="#GND?"  Part="1" 
+AR Path="/5C1195BD/5B6A58CA" Ref="#GND017"  Part="1" 
+F 0 "#GND017" H 10700 2300 50  0001 C CNN
+F 1 "GND" H 10600 2200 59  0000 L BNN
+F 2 "" H 10700 2300 50  0001 C CNN
+F 3 "" H 10700 2300 50  0001 C CNN
+	1    10700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tau-037-eagle-import:GND #GND?
+U 1 0 C2693486
+P 9500 2300
+AR Path="/C2693486" Ref="#GND?"  Part="1" 
+AR Path="/5C1195BD/C2693486" Ref="#GND016"  Part="1" 
+F 0 "#GND016" H 9500 2300 50  0001 C CNN
+F 1 "GND" H 9400 2200 59  0000 L BNN
+F 2 "" H 9500 2300 50  0001 C CNN
+F 3 "" H 9500 2300 50  0001 C CNN
+	1    9500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tau-037-eagle-import:3.3V #SUPPLY?
+U 1 0 19032892
+P 11100 1900
+AR Path="/19032892" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5C1195BD/19032892" Ref="#SUPPLY08"  Part="1" 
+F 0 "#SUPPLY08" H 11100 1900 50  0001 C CNN
+F 1 "3.3V" H 11060 2040 59  0000 L BNN
+F 2 "" H 11100 1900 50  0001 C CNN
+F 3 "" H 11100 1900 50  0001 C CNN
+	1    11100 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Tau-037-eagle-import:GND #GND?
+U 1 0 F278BC0E
+P 9100 2300
+AR Path="/F278BC0E" Ref="#GND?"  Part="1" 
+AR Path="/5C1195BD/F278BC0E" Ref="#GND015"  Part="1" 
+F 0 "#GND015" H 9100 2300 50  0001 C CNN
+F 1 "GND" H 9000 2200 59  0000 L BNN
+F 2 "" H 9100 2300 50  0001 C CNN
+F 3 "" H 9100 2300 50  0001 C CNN
+	1    9100 2300
+	1    0    0    -1  
+$EndComp
+Text Notes 5200 1300 0    127  ~ 0
+Micro USB
+Text Notes 9400 1300 0    127  ~ 0
+Voltage regulator
+Wire Wire Line
+	9600 2025 9600 2100
+Connection ~ 9600 2100
+Wire Wire Line
+	9600 2100 9500 2100
+Wire Wire Line
+	9100 2200 9500 2200
+Connection ~ 9100 2200
+Connection ~ 9500 2200
+Text GLabel 10650 2200 0    39   BiDi ~ 0
+GND
+Wire Wire Line
+	10575 1800 10575 1900
+Connection ~ 10575 1900
+Wire Wire Line
+	10575 1900 10700 1900
+Wire Wire Line
+	10650 2200 10700 2200
+Connection ~ 10700 2200
+$Comp
+L Connector:USB_B_Micro J6
+U 1 1 5C302C78
+P 5775 1975
+F 0 "J6" H 5830 2442 50  0000 C CNN
+F 1 "USB_B_Micro" H 5830 2351 50  0000 C CNN
+F 2 "Connectors:USB_Micro-B_10103594-0001LF_daz" H 5925 1925 50  0001 C CNN
+F 3 "~" H 5925 1925 50  0001 C CNN
+	1    5775 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tau-037-eagle-import:GND #GND?
+U 1 0 5C302CF6
+P 5750 2725
+AR Path="/5C302CF6" Ref="#GND?"  Part="1" 
+AR Path="/5C1195BD/5C302CF6" Ref="#GND0106"  Part="1" 
+F 0 "#GND0106" H 5750 2725 50  0001 C CNN
+F 1 "GND" H 5650 2625 59  0000 L BNN
+F 2 "" H 5750 2725 50  0001 C CNN
+F 3 "" H 5750 2725 50  0001 C CNN
+	1    5750 2725
+	1    0    0    -1  
+$EndComp
+Text GLabel 5425 2525 0    39   BiDi ~ 0
+GND
+Wire Wire Line
+	6400 2075 6075 2075
+Text GLabel 6525 2200 2    70   BiDi ~ 0
+TARGET_USB_N
+Wire Wire Line
+	6500 1975 6075 1975
+Text GLabel 6500 1975 2    70   BiDi ~ 0
+TARGET_USB_P
+Wire Wire Line
+	6075 1775 6225 1775
+Wire Wire Line
+	5775 2375 5775 2550
+Wire Wire Line
+	5775 2550 5750 2550
+Wire Wire Line
+	5750 2550 5750 2625
+Wire Wire Line
+	5675 2375 5675 2525
+Wire Wire Line
+	5675 2550 5750 2550
+Connection ~ 5750 2550
+Wire Wire Line
+	5425 2525 5675 2525
+Connection ~ 5675 2525
+Wire Wire Line
+	5675 2525 5675 2550
+$Comp
+L Regulator_Linear:LM1117-3.3 U4
+U 1 1 5C306CA3
+P 10100 1900
+F 0 "U4" H 10100 2142 50  0000 C CNN
+F 1 "LM1117-3.3" H 10100 2051 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 10100 1900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 10100 1900 50  0001 C CNN
+	1    10100 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 2100 9800 2200
+Wire Wire Line
+	9800 2200 10100 2200
+Wire Wire Line
+	6400 2075 6400 2200
+Wire Wire Line
+	6400 2200 6525 2200
+Text GLabel 9450 1775 0    39   BiDi ~ 0
+5V
+Wire Wire Line
+	9475 1775 9475 1900
+Wire Wire Line
+	9100 1900 9475 1900
+Connection ~ 9475 1900
+Wire Wire Line
+	9475 1900 9800 1900
+Wire Wire Line
+	9475 1775 9450 1775
+$EndSCHEMATC

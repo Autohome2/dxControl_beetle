@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Tau-037-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Tau-037-eagle-import.lib)(options "")(descr ""))
+)

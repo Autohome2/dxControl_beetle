@@ -1,0 +1,879 @@
+EESchema Schematic File Version 4
+LIBS:beetle-cache
+EELAYER 26 0
+EELAYER END
+$Descr User 16884 9964
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	10200 5100 11700 5100
+Wire Wire Line
+	11700 5100 11700 5300
+Text GLabel 10200 5125 0    20   BiDi ~ 0
+GND
+Wire Wire Line
+	6000 3900 6100 3900
+Wire Wire Line
+	6000 4200 6000 3900
+Wire Wire Line
+	5800 4200 6000 4200
+Wire Wire Line
+	6000 4500 6100 4500
+Wire Wire Line
+	6000 4500 6000 4200
+Connection ~ 6000 4200
+Text GLabel 6000 3900 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	11200 3800 11200 3700
+Wire Wire Line
+	11200 3700 11300 3700
+Wire Wire Line
+	11300 3700 11300 3800
+Wire Wire Line
+	11600 3700 11500 3700
+Wire Wire Line
+	11500 3700 11300 3700
+Wire Wire Line
+	11500 3800 11500 3700
+Connection ~ 11300 3700
+Connection ~ 11500 3700
+Text GLabel 11500 3600 0    39   BiDi ~ 0
+GND
+Wire Wire Line
+	6700 5700 5600 5700
+Wire Wire Line
+	5600 5700 5600 5900
+Text GLabel 6700 5750 0    39   BiDi ~ 0
+GND
+Wire Wire Line
+	11500 2800 11600 2800
+Text GLabel 11600 2875 0    39   BiDi ~ 0
+GND
+Text GLabel 2075 1550 0    39   BiDi ~ 0
+GND
+Wire Wire Line
+	11100 2800 10700 2800
+Text Label 11000 2800 2    70   ~ 0
+RESET
+Wire Wire Line
+	11600 4200 11500 4200
+Wire Wire Line
+	11500 4200 11500 4400
+Text Label 11500 4400 3    70   ~ 0
+RESET
+Connection ~ 11500 4200
+Wire Wire Line
+	10200 4900 10225 4900
+Wire Wire Line
+	12000 4900 12000 4800
+Text GLabel 10225 4875 0    20   BiDi ~ 0
+3.3V
+Wire Wire Line
+	6700 5600 5000 5600
+Wire Wire Line
+	5000 5400 5000 5600
+Connection ~ 5000 5600
+Text GLabel 6700 5550 0    39   BiDi ~ 0
+3.3V
+Wire Wire Line
+	11100 3800 11100 3625
+Text GLabel 10975 3625 0    39   BiDi ~ 0
+3.3V
+Wire Wire Line
+	14000 6400 13825 6400
+Wire Wire Line
+	6600 4800 6700 4800
+Text Label 6600 4800 2    70   ~ 0
+PA02_AIN0
+Wire Wire Line
+	6600 4900 6700 4900
+Text Label 6600 4900 2    70   ~ 0
+PA03_AIN1
+Wire Wire Line
+	4400 5500 4400 5600
+Text Label 4400 5500 1    70   ~ 0
+PA03_AIN1
+Wire Wire Line
+	6700 5100 6600 5100
+Text Label 6600 5100 2    70   ~ 0
+PA04_GPIO1
+Wire Wire Line
+	6700 5200 6600 5200
+Text Label 6600 5200 2    70   ~ 0
+PA05_GPIO2
+Wire Wire Line
+	6700 5900 6600 5900
+Text Label 6600 5900 2    70   ~ 0
+MOSI-DISP
+Wire Wire Line
+	6700 6000 6600 6000
+Text Label 6600 6000 2    70   ~ 0
+SCK-DISP
+Wire Wire Line
+	6700 6100 6600 6100
+Text Label 6600 6100 2    70   ~ 0
+SS-DISP
+Wire Wire Line
+	6700 6200 6600 6200
+Text Label 6600 6200 2    70   ~ 0
+MISO-DISP
+Wire Wire Line
+	6700 6600 6600 6600
+Text Label 6600 6600 2    70   ~ 0
+PA15_TCC0-W5
+Wire Wire Line
+	10300 6600 10200 6600
+Wire Wire Line
+	6700 5400 6600 5400
+Text Label 6600 5400 2    70   ~ 0
+PA07_GPIO4
+Wire Wire Line
+	10300 5500 10200 5500
+Text Label 10300 5500 0    70   ~ 0
+PA27_TX_LED
+Wire Wire Line
+	13800 5500 14000 5500
+Text Label 13800 5500 2    70   ~ 0
+PA27_TX_LED
+Wire Wire Line
+	6700 4600 6700 3900
+Wire Wire Line
+	6500 4100 6500 3900
+Wire Wire Line
+	6500 3900 6400 3900
+Wire Wire Line
+	6700 3900 6500 3900
+Connection ~ 6500 3900
+Wire Wire Line
+	6500 4700 6500 4500
+Wire Wire Line
+	6500 4500 6500 4300
+Wire Wire Line
+	6400 4500 6500 4500
+Wire Wire Line
+	6500 4700 6700 4700
+Connection ~ 6500 4500
+Wire Wire Line
+	6700 6500 6600 6500
+Text Label 6600 6500 2    70   ~ 0
+PA14_TCC0-W4
+Text GLabel 11125 5925 2    70   BiDi ~ 0
+TARGET_USB_N
+Text GLabel 11125 5775 2    70   BiDi ~ 0
+TARGET_USB_P
+Wire Wire Line
+	10300 5300 10200 5300
+Text Label 10300 5300 0    70   ~ 0
+PA28_USB_HOST_EN
+Wire Wire Line
+	10200 5000 12000 5000
+Wire Wire Line
+	10200 4700 11200 4700
+Wire Wire Line
+	11200 4700 11200 4200
+Text Label 10300 4700 0    70   ~ 0
+PA30_SWCLK
+Wire Wire Line
+	10200 4600 11100 4600
+Wire Wire Line
+	11100 4600 11100 4200
+Text Label 10300 4600 0    70   ~ 0
+PA31_SWDIO
+Wire Wire Line
+	12000 4200 12200 4200
+Text Label 12200 4200 0    70   ~ 0
+TARGET_RESET_EDBG
+Wire Wire Line
+	10300 5400 10200 5400
+Text Label 10300 5400 0    70   ~ 0
+TARGET_RESET_EDBG
+Wire Wire Line
+	10300 6400 10200 6400
+Wire Wire Line
+	6700 5300 6600 5300
+Text Label 6600 5300 2    70   ~ 0
+PA06_GPIO3
+Text GLabel 2075 1450 0    39   BiDi ~ 0
+VIN
+$Comp
+L Tau-037-eagle-import:GND #GND?
+U 1 0 C5585B8D
+P 5600 6000
+AR Path="/C5585B8D" Ref="#GND?"  Part="1" 
+AR Path="/5C119382/C5585B8D" Ref="#GND03"  Part="1" 
+F 0 "#GND03" H 5600 6000 50  0001 C CNN
+F 1 "GND" H 5500 5900 59  0000 L BNN
+F 2 "" H 5600 6000 50  0001 C CNN
+F 3 "" H 5600 6000 50  0001 C CNN
+	1    5600 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tau-037-eagle-import:GND #GND?
+U 1 0 CF583ECA
+P 11700 5400
+AR Path="/CF583ECA" Ref="#GND?"  Part="1" 
+AR Path="/5C119382/CF583ECA" Ref="#GND09"  Part="1" 
+F 0 "#GND09" H 11700 5400 50  0001 C CNN
+F 1 "GND" H 11600 5300 59  0000 L BNN
+F 2 "" H 11700 5400 50  0001 C CNN
+F 3 "" H 11700 5400 50  0001 C CNN
+	1    11700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tau-037-eagle-import:CAP0402 C?
+U 1 0 303D017B
+P 12000 5200
+AR Path="/303D017B" Ref="C?"  Part="1" 
+AR Path="/5C119382/303D017B" Ref="C5"  Part="1" 
+F 0 "C5" H 12060 5315 59  0000 L BNN
+F 1 "1uF" H 12060 5115 59  0000 L BNN
+F 2 "Capacitors_SMD:C_0805" H 12000 5200 50  0001 C CNN
+F 3 "" H 12000 5200 50  0001 C CNN
+	1    12000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tau-037-eagle-import:GND #GND?
+U 1 0 35D5721E
+P 12000 5400
+AR Path="/35D5721E" Ref="#GND?"  Part="1" 
+AR Path="/5C119382/35D5721E" Ref="#GND010"  Part="1" 
+F 0 "#GND010" H 12000 5400 50  0001 C CNN
+F 1 "GND" H 11900 5300 59  0000 L BNN
+F 2 "" H 12000 5400 50  0001 C CNN
+F 3 "" H 12000 5400 50  0001 C CNN
+	1    12000 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tau-037-eagle-import:CAP0402 C?
+U 1 0 8E04CE4C
+P 5000 5800
+AR Path="/8E04CE4C" Ref="C?"  Part="1" 
+AR Path="/5C119382/8E04CE4C" Ref="C2"  Part="1" 
+F 0 "C2" H 5160 5815 59  0000 L BNN
+F 1 "100nF" H 5160 5715 59  0000 L BNN
+F 2 "Capacitors_SMD:C_0805" H 5000 5800 50  0001 C CNN
+F 3 "" H 5000 5800 50  0001 C CNN
+	1    5000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tau-037-eagle-import:GND #GND?
+U 1 0 057C4BD5
+P 5000 6000
+AR Path="/057C4BD5" Ref="#GND?"  Part="1" 
+AR Path="/5C119382/057C4BD5" Ref="#GND02"  Part="1" 
+F 0 "#GND02" H 5000 6000 50  0001 C CNN
+F 1 "GND" H 4900 5900 59  0000 L BNN
+F 2 "" H 5000 6000 50  0001 C CNN
+F 3 "" H 5000 6000 50  0001 C CNN
+	1    5000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tau-037-eagle-import:CAP0402 C?
+U 1 0 13E69450
+P 6300 3900
+AR Path="/13E69450" Ref="C?"  Part="1" 
+AR Path="/5C119382/13E69450" Ref="C3"  Part="1" 
+F 0 "C3" V 6465 3860 59  0000 L BNN
+F 1 "22pF" V 6105 4100 59  0000 R TNN
+F 2 "Capacitors_SMD:C_0805" H 6300 3900 50  0001 C CNN
+F 3 "" H 6300 3900 50  0001 C CNN
+	1    6300 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Tau-037-eagle-import:CAP0402 C?
+U 1 0 755CCCC7
+P 6300 4500
+AR Path="/755CCCC7" Ref="C?"  Part="1" 
+AR Path="/5C119382/755CCCC7" Ref="C4"  Part="1" 
+F 0 "C4" V 6395 4640 59  0000 R TNN
+F 1 "22pF" V 6505 4700 59  0000 R TNN
+F 2 "Capacitors_SMD:C_0805" H 6300 4500 50  0001 C CNN
+F 3 "" H 6300 4500 50  0001 C CNN
+	1    6300 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Tau-037-eagle-import:GND #GND?
+U 1 0 F212C7DE
+P 11700 3700
+AR Path="/F212C7DE" Ref="#GND?"  Part="1" 
+AR Path="/5C119382/F212C7DE" Ref="#GND08"  Part="1" 
+F 0 "#GND08" H 11700 3700 50  0001 C CNN
+F 1 "GND" H 11600 3600 59  0000 L BNN
+F 2 "" H 11700 3700 50  0001 C CNN
+F 3 "" H 11700 3700 50  0001 C CNN
+	1    11700 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Tau-037-eagle-import:R-US_R0402-VISHAY R?
+U 1 0 A0406511
+P 11800 4200
+AR Path="/A0406511" Ref="R?"  Part="1" 
+AR Path="/5C119382/A0406511" Ref="R3"  Part="1" 
+F 0 "R3" H 11650 4259 59  0000 L BNN
+F 1 "330" H 11650 4070 59  0000 L BNN
+F 2 "Resistors_SMD:R_0805" H 11800 4200 50  0001 C CNN
+F 3 "" H 11800 4200 50  0001 C CNN
+	1    11800 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Tau-037-eagle-import:CAP0402 C?
+U 1 0 A60240AA
+P 4400 5800
+AR Path="/A60240AA" Ref="C?"  Part="1" 
+AR Path="/5C119382/A60240AA" Ref="C1"  Part="1" 
+F 0 "C1" H 4520 5825 59  0000 L BNN
+F 1 "100nF" H 4530 5715 59  0000 L BNN
+F 2 "Capacitors_SMD:C_0805" H 4400 5800 50  0001 C CNN
+F 3 "" H 4400 5800 50  0001 C CNN
+	1    4400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tau-037-eagle-import:GND #GND?
+U 1 0 F6847280
+P 4400 6000
+AR Path="/F6847280" Ref="#GND?"  Part="1" 
+AR Path="/5C119382/F6847280" Ref="#GND01"  Part="1" 
+F 0 "#GND01" H 4400 6000 50  0001 C CNN
+F 1 "GND" H 4300 5900 59  0000 L BNN
+F 2 "" H 4400 6000 50  0001 C CNN
+F 3 "" H 4400 6000 50  0001 C CNN
+	1    4400 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tau-037-eagle-import:A3L-LOC-MOD #U$?
+U 1 0 BCE09641
+P 1000 9100
+AR Path="/BCE09641" Ref="#U$?"  Part="1" 
+AR Path="/5C119382/BCE09641" Ref="#U$1"  Part="1" 
+F 0 "#U$1" H 1000 9100 50  0001 C CNN
+F 1 "A3L-LOC-MOD" H 1000 9100 50  0001 C CNN
+F 2 "" H 1000 9100 50  0001 C CNN
+F 3 "" H 1000 9100 50  0001 C CNN
+	1    1000 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tau-037-eagle-import:GND #GND?
+U 1 0 5518330F
+P 11700 2800
+AR Path="/5518330F" Ref="#GND?"  Part="1" 
+AR Path="/5C119382/5518330F" Ref="#GND07"  Part="1" 
+F 0 "#GND07" H 11700 2800 50  0001 C CNN
+F 1 "GND" H 11600 2700 59  0000 L BNN
+F 2 "" H 11700 2800 50  0001 C CNN
+F 3 "" H 11700 2800 50  0001 C CNN
+	1    11700 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Tau-037-eagle-import:R-US_R0402-VISHAY R?
+U 1 0 71430D2B
+P 14200 5500
+AR Path="/71430D2B" Ref="R?"  Part="1" 
+AR Path="/5C119382/71430D2B" Ref="R4"  Part="1" 
+F 0 "R4" H 14050 5559 59  0000 L BNN
+F 1 "330" H 14050 5370 59  0000 L BNN
+F 2 "Resistors_SMD:R_0805" H 14200 5500 50  0001 C CNN
+F 3 "" H 14200 5500 50  0001 C CNN
+	1    14200 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Tau-037-eagle-import:CRYSTAL3215 Y?
+U 1 0 E2A90CC2
+P 6500 4200
+AR Path="/E2A90CC2" Ref="Y?"  Part="1" 
+AR Path="/5C119382/E2A90CC2" Ref="Y1"  Part="1" 
+F 0 "Y1" H 6600 4240 59  0000 L BNN
+F 1 "ABS07-32.768KHZ" H 6600 4100 59  0000 L BNN
+F 2 "Crystals:Crystal_Round_d2.0mm_Vertical" H 6500 4200 50  0001 C CNN
+F 3 "" H 6500 4200 50  0001 C CNN
+	1    6500 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Tau-037-eagle-import:GND #GND?
+U 1 0 8C4C494A
+P 14800 5500
+AR Path="/8C4C494A" Ref="#GND?"  Part="1" 
+AR Path="/5C119382/8C4C494A" Ref="#GND011"  Part="1" 
+F 0 "#GND011" H 14800 5500 50  0001 C CNN
+F 1 "GND" H 14700 5400 59  0000 L BNN
+F 2 "" H 14800 5500 50  0001 C CNN
+F 3 "" H 14800 5500 50  0001 C CNN
+	1    14800 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Tau-037-eagle-import:CONNETTORI_0171_PH127-205DF055G00A JP?
+U 1 0 193933AB
+P 11300 4000
+AR Path="/193933AB" Ref="JP?"  Part="1" 
+AR Path="/5C119382/193933AB" Ref="JP3"  Part="1" 
+F 0 "JP3" H 11200 4285 59  0000 L BNN
+F 1 "CONNETTORI_0171_PH127-205DF055G00A" H 11200 3650 59  0000 L BNN
+F 2 "Tau-037:CONNETTORI_PINHEAD-2X5-P127" H 11300 4000 50  0001 C CNN
+F 3 "" H 11300 4000 50  0001 C CNN
+	1    11300 4000
+	0    -1   1    0   
+$EndComp
+$Comp
+L Tau-037-eagle-import:VIN #SUPPLY?
+U 1 0 4F8E092B
+P 2025 1400
+AR Path="/4F8E092B" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5C119382/4F8E092B" Ref="#SUPPLY02"  Part="1" 
+F 0 "#SUPPLY02" H 2025 1400 50  0001 C CNN
+F 1 "VIN" H 1985 1540 59  0000 L BNN
+F 2 "" H 2025 1400 50  0001 C CNN
+F 3 "" H 2025 1400 50  0001 C CNN
+	1    2025 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Tau-037-eagle-import:3.3V #SUPPLY?
+U 1 0 39566F8A
+P 11100 3600
+AR Path="/39566F8A" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5C119382/39566F8A" Ref="#SUPPLY04"  Part="1" 
+F 0 "#SUPPLY04" H 11100 3600 50  0001 C CNN
+F 1 "3.3V" H 11060 3740 59  0000 L BNN
+F 2 "" H 11100 3600 50  0001 C CNN
+F 3 "" H 11100 3600 50  0001 C CNN
+	1    11100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tau-037-eagle-import:3.3V #SUPPLY?
+U 1 0 B8640D54
+P 12000 4800
+AR Path="/B8640D54" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5C119382/B8640D54" Ref="#SUPPLY05"  Part="1" 
+F 0 "#SUPPLY05" H 12000 4800 50  0001 C CNN
+F 1 "3.3V" H 11960 4940 59  0000 L BNN
+F 2 "" H 12000 4800 50  0001 C CNN
+F 3 "" H 12000 4800 50  0001 C CNN
+	1    12000 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tau-037-eagle-import:3.3V #SUPPLY?
+U 1 0 8D803956
+P 5000 5400
+AR Path="/8D803956" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5C119382/8D803956" Ref="#SUPPLY01"  Part="1" 
+F 0 "#SUPPLY01" H 5000 5400 50  0001 C CNN
+F 1 "3.3V" H 4960 5540 59  0000 L BNN
+F 2 "" H 5000 5400 50  0001 C CNN
+F 3 "" H 5000 5400 50  0001 C CNN
+	1    5000 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tau-037-eagle-import:GND #GND?
+U 1 0 12C6E2A1
+P 5700 4200
+AR Path="/12C6E2A1" Ref="#GND?"  Part="1" 
+AR Path="/5C119382/12C6E2A1" Ref="#GND04"  Part="1" 
+F 0 "#GND04" H 5700 4200 50  0001 C CNN
+F 1 "GND" H 5600 4100 59  0000 L BNN
+F 2 "" H 5700 4200 50  0001 C CNN
+F 3 "" H 5700 4200 50  0001 C CNN
+	1    5700 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Tau-037-eagle-import:SAMD21EQFN32-LESSTHERMAL U?
+U 1 0 C4052306
+P 8500 5700
+AR Path="/C4052306" Ref="U?"  Part="1" 
+AR Path="/5C119382/C4052306" Ref="U1"  Part="1" 
+F 0 "U1" H 7000 4200 85  0000 L BNN
+F 1 "ATSAMD21E18A-MU" H 7000 7200 85  0000 L BNN
+F 2 "Tau-037:QFN32-5X5-LESSTHERMAL" H 8500 5700 50  0001 C CNN
+F 3 "" H 8500 5700 50  0001 C CNN
+	1    8500 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Tau-037-eagle-import:R-US_R0402-VISHAY R?
+U 1 0 EFC0BE74
+P 14200 6400
+AR Path="/EFC0BE74" Ref="R?"  Part="1" 
+AR Path="/5C119382/EFC0BE74" Ref="R5"  Part="1" 
+F 0 "R5" H 14050 6459 59  0000 L BNN
+F 1 "330" H 14050 6270 59  0000 L BNN
+F 2 "Resistors_SMD:R_0805" H 14200 6400 50  0001 C CNN
+F 3 "" H 14200 6400 50  0001 C CNN
+	1    14200 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Tau-037-eagle-import:GND #GND?
+U 1 0 21137572
+P 14800 6400
+AR Path="/21137572" Ref="#GND?"  Part="1" 
+AR Path="/5C119382/21137572" Ref="#GND012"  Part="1" 
+F 0 "#GND012" H 14800 6400 50  0001 C CNN
+F 1 "GND" H 14700 6300 59  0000 L BNN
+F 2 "" H 14800 6400 50  0001 C CNN
+F 3 "" H 14800 6400 50  0001 C CNN
+	1    14800 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Tau-037-eagle-import:3.3V #SUPPLY?
+U 1 0 F54A36B8
+P 13700 6400
+AR Path="/F54A36B8" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5C119382/F54A36B8" Ref="#SUPPLY07"  Part="1" 
+F 0 "#SUPPLY07" H 13700 6400 50  0001 C CNN
+F 1 "3.3V" H 13660 6540 59  0000 L BNN
+F 2 "" H 13700 6400 50  0001 C CNN
+F 3 "" H 13700 6400 50  0001 C CNN
+	1    13700 6400
+	0    -1   -1   0   
+$EndComp
+Text Notes 13900 7000 0    59   ~ 0
+LEDs draw 4mA each.
+Text Notes 14800 6100 0    59   ~ 0
+Power
+Text Notes 14800 5200 0    59   ~ 0
+Status
+Text Notes 4500 3000 0    59   ~ 0
+Even at qty 500 there's a $0.50 difference between the ABS06 and the larger ABS07 crystal.
+$Comp
+L Connector_Generic:Conn_01x07 J1
+U 1 1 5C11E0A8
+P 5500 1450
+F 0 "J1" H 5579 1492 50  0000 L CNN
+F 1 "spi disp" H 5579 1401 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 5500 1450 50  0001 C CNN
+F 3 "~" H 5500 1450 50  0001 C CNN
+	1    5500 1450
+	1    0    0    -1  
+$EndComp
+Text Label 5150 1450 2    70   ~ 0
+MOSI-DISP
+Text Label 5150 1350 2    70   ~ 0
+SCK-DISP
+Text Label 5150 1250 2    70   ~ 0
+SS-DISP
+Text Label 5150 1150 2    70   ~ 0
+MISO-DISP
+Wire Wire Line
+	5300 1150 5150 1150
+Wire Wire Line
+	5300 1250 5150 1250
+Wire Wire Line
+	5300 1350 5150 1350
+Wire Wire Line
+	5150 1450 5300 1450
+$Comp
+L Tau-037-eagle-import:GND #GND?
+U 1 0 5C145862
+P 5050 1650
+AR Path="/5C145862" Ref="#GND?"  Part="1" 
+AR Path="/5C119382/5C145862" Ref="#GND0101"  Part="1" 
+F 0 "#GND0101" H 5050 1650 50  0001 C CNN
+F 1 "GND" H 4950 1550 59  0000 L BNN
+F 2 "" H 5050 1650 50  0001 C CNN
+F 3 "" H 5050 1650 50  0001 C CNN
+	1    5050 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Tau-037-eagle-import:3.3V #SUPPLY?
+U 1 0 5C146025
+P 5150 1750
+AR Path="/5C146025" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5C119382/5C146025" Ref="#SUPPLY0101"  Part="1" 
+F 0 "#SUPPLY0101" H 5150 1750 50  0001 C CNN
+F 1 "3.3V" H 5110 1890 59  0000 L BNN
+F 2 "" H 5150 1750 50  0001 C CNN
+F 3 "" H 5150 1750 50  0001 C CNN
+	1    5150 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 1650 5175 1650
+Wire Wire Line
+	5300 1750 5275 1750
+Text Label 10300 5900 0    70   ~ 0
+PA23_TX0
+Text Label 10300 6000 0    70   ~ 0
+PA22_RX0
+Wire Wire Line
+	10300 5900 10200 5900
+Wire Wire Line
+	10200 6000 10300 6000
+Wire Wire Line
+	10200 5125 10200 5100
+Connection ~ 10200 5100
+Wire Wire Line
+	10225 4875 10225 4900
+Connection ~ 10225 4900
+Wire Wire Line
+	10225 4900 12000 4900
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5C184F1F
+P 3475 1200
+F 0 "J4" H 3555 1192 50  0000 L CNN
+F 1 "CAN" H 3555 1101 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3475 1200 50  0001 C CNN
+F 3 "~" H 3475 1200 50  0001 C CNN
+	1    3475 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5C184FF3
+P 2375 1300
+F 0 "J3" H 2454 1292 50  0000 L CNN
+F 1 "ECU" H 2454 1201 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 2375 1300 50  0001 C CNN
+F 3 "~" H 2375 1300 50  0001 C CNN
+	1    2375 1300
+	1    0    0    -1  
+$EndComp
+Text Label 2025 1200 2    70   ~ 0
+PA22_RX0
+Text Label 2025 1300 2    70   ~ 0
+PA23_TX0
+$Comp
+L Tau-037-eagle-import:GND #GND?
+U 1 0 5C190CE6
+P 1775 1500
+AR Path="/5C190CE6" Ref="#GND?"  Part="1" 
+AR Path="/5C119382/5C190CE6" Ref="#GND0102"  Part="1" 
+F 0 "#GND0102" H 1775 1500 50  0001 C CNN
+F 1 "GND" H 1675 1400 59  0000 L BNN
+F 2 "" H 1775 1500 50  0001 C CNN
+F 3 "" H 1775 1500 50  0001 C CNN
+	1    1775 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2025 1200 2175 1200
+Wire Wire Line
+	2175 1300 2025 1300
+Wire Wire Line
+	2025 1400 2075 1400
+Wire Wire Line
+	2175 1500 2075 1500
+Wire Wire Line
+	3275 1300 3175 1300
+Wire Wire Line
+	3175 1300 3175 1375
+Wire Wire Line
+	3275 1200 3175 1200
+Wire Wire Line
+	3175 1200 3175 1175
+Wire Wire Line
+	2075 1450 2075 1400
+Connection ~ 2075 1400
+Wire Wire Line
+	2075 1400 2175 1400
+Wire Wire Line
+	2075 1550 2075 1500
+Connection ~ 2075 1500
+Wire Wire Line
+	2075 1500 1875 1500
+Text Label 7075 1375 2    70   ~ 0
+PA04_GPIO1
+Text Label 7075 1475 2    70   ~ 0
+PA05_GPIO2
+Text Label 7075 1675 2    70   ~ 0
+PA07_GPIO4
+Text Label 7075 1575 2    70   ~ 0
+PA06_GPIO3
+Text Label 7250 1950 2    70   ~ 0
+PA15_TCC0-W5
+Text Label 7250 1850 2    70   ~ 0
+PA14_TCC0-W4
+Text Label 6975 1100 2    70   ~ 0
+PA02_AIN0
+Text Label 6975 1200 2    70   ~ 0
+PA03_AIN1
+Text GLabel 3175 1375 0    60   Input ~ 0
+CAN1L
+Text GLabel 3175 1175 0    60   Input ~ 0
+CAN1H
+Text GLabel 10650 6300 2    70   Input ~ 0
+MISO
+Text GLabel 10300 6400 2    70   Input ~ 0
+SS
+Text GLabel 10675 6500 2    70   Input ~ 0
+SCK
+Text GLabel 10300 6600 2    70   Input ~ 0
+MOSI
+Wire Wire Line
+	6700 5750 6700 5700
+Connection ~ 6700 5700
+Wire Wire Line
+	6700 5550 6700 5600
+Connection ~ 6700 5600
+$Comp
+L Connector_Generic:Conn_01x08 J5
+U 1 1 5C2884ED
+P 7850 1425
+F 0 "J5" H 7929 1417 50  0000 L CNN
+F 1 "Aux io" H 7929 1326 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 7850 1425 50  0001 C CNN
+F 3 "~" H 7850 1425 50  0001 C CNN
+	1    7850 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6975 1100 7650 1100
+Wire Wire Line
+	7650 1100 7650 1125
+Wire Wire Line
+	6975 1200 7650 1200
+Wire Wire Line
+	7650 1200 7650 1225
+Wire Wire Line
+	7075 1375 7075 1325
+Wire Wire Line
+	7075 1325 7650 1325
+Wire Wire Line
+	7075 1475 7650 1475
+Wire Wire Line
+	7650 1475 7650 1425
+Wire Wire Line
+	7075 1575 7650 1575
+Wire Wire Line
+	7650 1575 7650 1525
+Wire Wire Line
+	7075 1675 7650 1675
+Wire Wire Line
+	7650 1675 7650 1625
+Wire Wire Line
+	7250 1850 7550 1850
+Wire Wire Line
+	7550 1850 7550 1725
+Wire Wire Line
+	7550 1725 7650 1725
+Wire Wire Line
+	7650 1825 7650 1950
+Wire Wire Line
+	7650 1950 7250 1950
+Text GLabel 5275 1925 3    39   BiDi ~ 0
+3.3V
+Text GLabel 5175 1575 0    39   BiDi ~ 0
+GND
+Wire Wire Line
+	5175 1575 5175 1650
+Connection ~ 5175 1650
+Wire Wire Line
+	5175 1650 5300 1650
+Wire Wire Line
+	5275 1925 5275 1750
+Connection ~ 5275 1750
+Wire Wire Line
+	5275 1750 5150 1750
+Wire Wire Line
+	11600 2875 11600 2800
+Connection ~ 11600 2800
+Wire Wire Line
+	11500 3600 11500 3700
+Wire Wire Line
+	10975 3625 11100 3625
+Connection ~ 11100 3625
+Wire Wire Line
+	11100 3625 11100 3600
+Wire Wire Line
+	11700 5300 12000 5300
+Connection ~ 11700 5300
+Connection ~ 12000 5300
+Wire Wire Line
+	5600 5925 5600 5900
+Wire Wire Line
+	4400 5925 5600 5925
+Connection ~ 5600 5900
+Text GLabel 14700 5900 0    39   BiDi ~ 0
+GND
+Text GLabel 13825 6600 0    39   BiDi ~ 0
+3.3V
+Wire Wire Line
+	13825 6600 13825 6400
+Connection ~ 13825 6400
+Wire Wire Line
+	13825 6400 13700 6400
+Wire Wire Line
+	14700 5500 14700 6400
+$Comp
+L Device:LED D1
+U 1 1 5C2E9010
+P 14550 5500
+F 0 "D1" H 14542 5245 50  0000 C CNN
+F 1 "status_LED" H 14542 5336 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 14550 5500 50  0001 C CNN
+F 3 "~" H 14550 5500 50  0001 C CNN
+	1    14550 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5C2EA67F
+P 14550 6400
+F 0 "D2" H 14542 6145 50  0000 C CNN
+F 1 "pwr_LED" H 14542 6236 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 14550 6400 50  0001 C CNN
+F 3 "~" H 14550 6400 50  0001 C CNN
+	1    14550 6400
+	-1   0    0    1   
+$EndComp
+Connection ~ 14700 6400
+Connection ~ 14700 5500
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5C2F8966
+P 11300 2800
+F 0 "SW1" H 11300 3085 50  0000 C CNN
+F 1 "SW_Push" H 11300 2994 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_3x6x2.5" H 11300 3000 50  0001 C CNN
+F 3 "" H 11300 3000 50  0001 C CNN
+	1    11300 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11125 5775 11025 5775
+Wire Wire Line
+	11025 5775 11025 5700
+Wire Wire Line
+	10200 5700 11025 5700
+Wire Wire Line
+	11125 5925 10950 5925
+Wire Wire Line
+	10950 5925 10950 5800
+Wire Wire Line
+	10200 5800 10950 5800
+Wire Wire Line
+	10200 6300 10650 6300
+Wire Wire Line
+	10200 6500 10675 6500
+$EndSCHEMATC

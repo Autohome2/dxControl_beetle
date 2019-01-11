@@ -1,0 +1,17 @@
+### Module positions - created on 01/02/19 23:36:24 ###
+### Printed by Pcbnew version pcbnew (5.0.0)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val          Package                               PosX       PosY       Rot  Side
+C5        1uF          C_0805                            117.0000   -86.6000   45.0000  top
+C6        1uF          C_0805                            102.5000   -84.7000  180.0000  top
+C7        1uF          C_0805                            102.0000   -73.7000    0.0000  top
+D1        status_LED   LED_0805                          113.1000   -75.7000  270.0000  top
+D2        pwr_LED      LED_0805                          103.0000   -69.2000  270.0000  top
+J6        USB_B_Micro  USB_Micro-B_10103594-0001LF_daz   103.9000   -89.6000    0.0000  top
+R3        330          R_0805                            113.1000   -83.0000  270.0000  top
+R4        330          R_0805                            113.1000   -79.3000  270.0000  top
+R5        330          R_0805                            101.1000   -71.1000  270.0000  top
+SW1       SW_Push      SW_SPST_3x6x2.5                   109.9000   -78.6000   90.0000  top
+U4        LM1117-3.3   SOT-223-3_TabPin2                 103.8000   -79.3000   90.0000  top
+## End
